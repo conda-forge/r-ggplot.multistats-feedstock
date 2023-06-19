@@ -1,11 +1,11 @@
-About r-ggplot.multistats
-=========================
+About r-ggplot.multistats-feedstock
+===================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggplot.multistats-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/flying-sheep/ggplot.multistats
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggplot.multistats-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides the ggplot binning layer stat_summaries_hex(), which functions similar to its singular form, but allows the use of multiple statistics per bin. Those statistics can be mapped to multiple bin aesthetics.
 
