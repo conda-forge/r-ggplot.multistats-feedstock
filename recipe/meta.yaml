@@ -1,4 +1,4 @@
-{% set version = '1.0.0' %}
+{% set version = "1.0.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggplot.multistats_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggplot.multistats/ggplot.multistats_{{ version }}.tar.gz
-  sha256: 34825fa78bd7008ea27affc54c50e9eaca01fc0cf5bccbd92288b06d9072dfa9
+  sha256: fc4a042bf7d86641e50338ba851056dc2ed1f501092f9b78ac5cf3d6ce7ece5d
 
 build:
-  number: 4
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -42,9 +42,7 @@ test:
 about:
   home: https://github.com/flying-sheep/ggplot.multistats
   license: GPL-3.0-only
-  summary: Provides the ggplot binning layer stat_summaries_hex(), which functions similar to
-    its singular form, but allows the use of multiple statistics per bin. Those statistics
-    can be mapped to multiple bin aesthetics.
+  summary: Provides the ggplot binning layer stat_summaries_hex(), which functions similar to its singular form, but allows the use of multiple statistics per bin. Those statistics can be mapped to multiple bin aesthetics.
   license_family: GPL3
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
